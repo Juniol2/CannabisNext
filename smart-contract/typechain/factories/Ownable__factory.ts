@@ -2,11 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-
-// import { Contract, Signer, utils } from "ethers";
-import { Contract } from "ethers";
-import { Signer } from "ethers";
-import { utils } from "ethers";
+import { Contract, Signer, utils } from "ethers";
 import { Provider } from "@ethersproject/providers";
 import type { Ownable, OwnableInterface } from "../Ownable";
 
