@@ -16,9 +16,7 @@ This project was created for educational purposes, please refer to the [LICENCE]
 - full support for contract interaction through block explorers (e.g. Etherscan), for all the users that do not trust custom DAPPs (including the `whitelistMint(...)` function)
 - customizable minting DAPP (from basic branding to complete customization)
 
-## YouTube tutorials
-- Deploy an NFT collection in 5 Min: https://youtu.be/ynZzPNkS1nk
-- _More videos coming soon..._
+
 
 ## Requirements
 
