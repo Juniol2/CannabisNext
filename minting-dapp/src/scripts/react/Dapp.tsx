@@ -315,8 +315,8 @@ export default class Dapp extends React.Component<Props, State> {
     this.contract = new ethers.Contract(
       CollectionConfig.contractAddress!,
       ContractAbi,
-      this.provider.getSigner(),
-    ) as NftContractType;
+      this.provider.getSigner()
+    ) as unknown as NftContractType;
 
     this.setState({
       maxSupply: (await this.contract.maxSupply()).toNumber(),
