@@ -37,5 +37,9 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "cssnano-preset-default": "^5.2.5",
+        "postcss-discard-empty": "^5.1.1"
     }
 }
